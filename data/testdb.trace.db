@@ -1,0 +1,306 @@
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('uorrick0', 'Seattle', 'Washington', '98115', false, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('uorrick0', 'Seattle', 'Washington', '98115', false, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('eitzkovici1', 'Albany', 'New York', '12247', true, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('eitzkovici1', 'Albany', 'New York', '12247', true, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('kcostain2', 'Yonkers', 'New York', '10705', false, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('kcostain2', 'Yonkers', 'New York', '10705', false, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('dcruces3', 'Spokane', 'Washington', '99220', false, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('dcruces3', 'Spokane', 'Washington', '99220', false, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('bgapp4', 'Montgomery', 'Alabama', '36114', false, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('bgapp4', 'Montgomery', 'Alabama', '36114', false, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('chandasyde5', 'Pasadena', 'Texas', '77505', true, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('chandasyde5', 'Pasadena', 'Texas', '77505', true, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('rstonner6', 'Long Beach', 'California', '90810', true, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('rstonner6', 'Long Beach', 'California', '90810', true, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('pcajkler7', 'Monticello', 'Minnesota', '55590', false, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('pcajkler7', 'Monticello', 'Minnesota', '55590', false, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('bfudger8', 'New York City', 'New York', '10249', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('bfudger8', 'New York City', 'New York', '10249', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mslora9', 'El Paso', 'Texas', '79905', false, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mslora9', 'El Paso', 'Texas', '79905', false, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('nliberoa', 'Philadelphia', 'Pennsylvania', '19172', false, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('nliberoa', 'Philadelphia', 'Pennsylvania', '19172', false, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('bthrippb', 'Chandler', 'Arizona', '85246', true, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('bthrippb', 'Chandler', 'Arizona', '85246', true, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('fmoradc', 'Charleston', 'South Carolina', '29416', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('fmoradc', 'Charleston', 'South Carolina', '29416', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('gcolind', 'Irvine', 'California', '92710', true, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('gcolind', 'Irvine', 'California', '92710', true, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('smccannye', 'Wilmington', 'Delaware', '19897', false, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('smccannye', 'Wilmington', 'Delaware', '19897', false, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('ustoneyf', 'Lake Charles', 'Louisiana', '70607', false, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('ustoneyf', 'Lake Charles', 'Louisiana', '70607', false, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('jrowlinsong', 'Cape Coral', 'Florida', '33915', true, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('jrowlinsong', 'Cape Coral', 'Florida', '33915', true, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('cmabeeh', 'Grand Rapids', 'Michigan', '49560', true, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('cmabeeh', 'Grand Rapids', 'Michigan', '49560', true, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('nolenovi', 'Atlanta', 'Georgia', '30343', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('nolenovi', 'Atlanta', 'Georgia', '30343', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('lslimmonj', 'Tampa', 'Florida', '33647', false, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('lslimmonj', 'Tampa', 'Florida', '33647', false, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('fclarycottk', 'Dallas', 'Texas', '75397', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('fclarycottk', 'Dallas', 'Texas', '75397', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('hrochfordl', 'Fresno', 'California', '93778', true, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('hrochfordl', 'Fresno', 'California', '93778', true, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('dmincinim', 'Birmingham', 'Alabama', '35205', false, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('dmincinim', 'Birmingham', 'Alabama', '35205', false, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('thandrahann', 'Saint Louis', 'Missouri', '63143', true, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('thandrahann', 'Saint Louis', 'Missouri', '63143', true, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('cbuggso', 'Reno', 'Nevada', '89505', false, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('cbuggso', 'Reno', 'Nevada', '89505', false, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('khuiep', 'Largo', 'Florida', '33777', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('khuiep', 'Largo', 'Florida', '33777', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('vsybbeq', 'Roanoke', 'Virginia', '24048', true, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('vsybbeq', 'Roanoke', 'Virginia', '24048', true, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('ebrodeaur', 'New Haven', 'Connecticut', '06533', false, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('ebrodeaur', 'New Haven', 'Connecticut', '06533', false, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('bmorehalls', 'Austin', 'Texas', '78721', true, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('bmorehalls', 'Austin', 'Texas', '78721', true, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('amclearyt', 'Augusta', 'Georgia', '30905', false, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('amclearyt', 'Augusta', 'Georgia', '30905', false, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('lphilipeauu', 'Mc Keesport', 'Pennsylvania', '15134', true, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('lphilipeauu', 'Mc Keesport', 'Pennsylvania', '15134', true, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mshoebrookv', 'Denver', 'Colorado', '80235', false, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mshoebrookv', 'Denver', 'Colorado', '80235', false, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('pcobbingw', 'Oklahoma City', 'Oklahoma', '73173', true, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('pcobbingw', 'Oklahoma City', 'Oklahoma', '73173', true, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('abrendx', 'New Haven', 'Connecticut', '06533', false, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('abrendx', 'New Haven', 'Connecticut', '06533', false, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('wspikingsy', 'Humble', 'Texas', '77346', false, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('wspikingsy', 'Humble', 'Texas', '77346', false, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('dbaackz', 'Brea', 'California', '92822', false, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('dbaackz', 'Brea', 'California', '92822', false, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('tbenton10', 'El Paso', 'Texas', '79977', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('tbenton10', 'El Paso', 'Texas', '79977', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mbedham11', 'Atlanta', 'Georgia', '30392', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mbedham11', 'Atlanta', 'Georgia', '30392', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('akillgus12', 'Cincinnati', 'Ohio', '45249', true, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('akillgus12', 'Cincinnati', 'Ohio', '45249', true, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('fmaase13', 'Springfield', 'Illinois', '62711', false, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('fmaase13', 'Springfield', 'Illinois', '62711', false, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('eeronie14', 'San Diego', 'California', '92160', true, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('eeronie14', 'San Diego', 'California', '92160', true, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('jclemenceau15', 'Milwaukee', 'Wisconsin', '53205', true, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('jclemenceau15', 'Milwaukee', 'Wisconsin', '53205', true, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('lgauford16', 'Brooklyn', 'New York', '11210', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('lgauford16', 'Brooklyn', 'New York', '11210', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mkarpman17', 'Philadelphia', 'Pennsylvania', '19178', false, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mkarpman17', 'Philadelphia', 'Pennsylvania', '19178', false, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('wdunleavy18', 'Anaheim', 'California', '92805', true, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('wdunleavy18', 'Anaheim', 'California', '92805', true, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('tshetliff19', 'Billings', 'Montana', '59105', true, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('tshetliff19', 'Billings', 'Montana', '59105', true, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('cpacker1a', 'Naperville', 'Illinois', '60567', true, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('cpacker1a', 'Naperville', 'Illinois', '60567', true, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mlorkin1b', 'Saint Louis', 'Missouri', '63180', true, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mlorkin1b', 'Saint Louis', 'Missouri', '63180', true, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('wcormode1c', 'Spokane', 'Washington', '99205', true, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('wcormode1c', 'Spokane', 'Washington', '99205', true, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('scundey1d', 'Las Vegas', 'Nevada', '89110', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('scundey1d', 'Las Vegas', 'Nevada', '89110', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('vrubinowitz1e', 'Los Angeles', 'California', '90060', false, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('vrubinowitz1e', 'Los Angeles', 'California', '90060', false, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('cbothen1f', 'Charlotte', 'North Carolina', '28235', true, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('cbothen1f', 'Charlotte', 'North Carolina', '28235', true, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('chandrek1g', 'Battle Creek', 'Michigan', '49018', false, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('chandrek1g', 'Battle Creek', 'Michigan', '49018', false, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('clorek1h', 'Corpus Christi', 'Texas', '78410', true, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('clorek1h', 'Corpus Christi', 'Texas', '78410', true, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('ysenescall1i', 'Denver', 'Colorado', '80228', false, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('ysenescall1i', 'Denver', 'Colorado', '80228', false, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('aashwin1j', 'Flushing', 'New York', '11388', true, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('aashwin1j', 'Flushing', 'New York', '11388', true, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mgarfield1k', 'Jacksonville', 'Florida', '32204', false, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mgarfield1k', 'Jacksonville', 'Florida', '32204', false, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('pplaskett1l', 'Ocala', 'Florida', '34474', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('pplaskett1l', 'Ocala', 'Florida', '34474', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('csaill1m', 'Richmond', 'Virginia', '23220', true, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('csaill1m', 'Richmond', 'Virginia', '23220', true, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('tbonifacio1n', 'San Francisco', 'California', '94137', false, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('tbonifacio1n', 'San Francisco', 'California', '94137', false, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('cturnor1o', 'Pasadena', 'California', '91117', true, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('cturnor1o', 'Pasadena', 'California', '91117', true, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('rsand1p', 'Detroit', 'Michigan', '48295', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('rsand1p', 'Detroit', 'Michigan', '48295', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('jwastling1q', 'Charlottesville', 'Virginia', '22903', true, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('jwastling1q', 'Charlottesville', 'Virginia', '22903', true, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('zfolder1r', 'Albany', 'New York', '12242', false, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('zfolder1r', 'Albany', 'New York', '12242', false, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mdruel1s', 'Evansville', 'Indiana', '47719', true, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mdruel1s', 'Evansville', 'Indiana', '47719', true, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('fsobtka1t', 'Miami', 'Florida', '33196', false, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('fsobtka1t', 'Miami', 'Florida', '33196', false, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('fciccotti1u', 'Arlington', 'Virginia', '22212', true, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('fciccotti1u', 'Arlington', 'Virginia', '22212', true, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('cstelljes1v', 'Young America', 'Minnesota', '55557', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('cstelljes1v', 'Young America', 'Minnesota', '55557', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('tgwyneth1w', 'Gilbert', 'Arizona', '85297', false, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('tgwyneth1w', 'Gilbert', 'Arizona', '85297', false, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('fharrinson1x', 'Corpus Christi', 'Texas', '78405', true, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('fharrinson1x', 'Corpus Christi', 'Texas', '78405', true, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('lmathiassen1y', 'Decatur', 'Georgia', '30033', false, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('lmathiassen1y', 'Decatur', 'Georgia', '30033', false, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mcurm1z', 'East Saint Louis', 'Illinois', '62205', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mcurm1z', 'East Saint Louis', 'Illinois', '62205', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('wkull20', 'New York City', 'New York', '10105', true, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('wkull20', 'New York City', 'New York', '10105', true, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('bkilgannon21', 'Philadelphia', 'Pennsylvania', '19191', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('bkilgannon21', 'Philadelphia', 'Pennsylvania', '19191', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('lmacklin22', 'Springfield', 'Massachusetts', '01152', true, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('lmacklin22', 'Springfield', 'Massachusetts', '01152', true, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('pmongenot23', 'Lafayette', 'Indiana', '47905', true, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('pmongenot23', 'Lafayette', 'Indiana', '47905', true, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('sfrow24', 'Boston', 'Massachusetts', '02216', false, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('sfrow24', 'Boston', 'Massachusetts', '02216', false, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('hlingner25', 'Lexington', 'Kentucky', '40510', false, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('hlingner25', 'Lexington', 'Kentucky', '40510', false, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('hculmer26', 'Houston', 'Texas', '77234', false, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('hculmer26', 'Houston', 'Texas', '77234', false, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('eterzza27', 'San Diego', 'California', '92176', false, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('eterzza27', 'San Diego', 'California', '92176', false, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('jchastang28', 'Los Angeles', 'California', '90050', false, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('jchastang28', 'Los Angeles', 'California', '90050', false, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('rfetherby29', 'Washington', 'District of Columbia', '20005', false, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('rfetherby29', 'Washington', 'District of Columbia', '20005', false, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mtremmil2a', 'Minneapolis', 'Minnesota', '55480', false, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mtremmil2a', 'Minneapolis', 'Minnesota', '55480', false, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('dbarsam2b', 'Spokane', 'Washington', '99215', false, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('dbarsam2b', 'Spokane', 'Washington', '99215', false, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('tpaxman2c', 'Tulsa', 'Oklahoma', '74133', true, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('tpaxman2c', 'Tulsa', 'Oklahoma', '74133', true, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('owakenshaw2d', 'Pensacola', 'Florida', '32526', true, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('owakenshaw2d', 'Pensacola', 'Florida', '32526', true, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('pharford2e', 'Oklahoma City', 'Oklahoma', '73167', false, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('pharford2e', 'Oklahoma City', 'Oklahoma', '73167', false, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('tknoton2f', 'Jacksonville', 'Florida', '32236', false, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('tknoton2f', 'Jacksonville', 'Florida', '32236', false, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('iickowicz2g', 'Miami', 'Florida', '33190', false, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('iickowicz2g', 'Miami', 'Florida', '33190', false, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('kpeteri2h', 'Oakland', 'California', '94605', false, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('kpeteri2h', 'Oakland', 'California', '94605', false, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mcullotey2i', 'Shreveport', 'Louisiana', '71151', true, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mcullotey2i', 'Shreveport', 'Louisiana', '71151', true, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mbever2j', 'Odessa', 'Texas', '79769', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('mbever2j', 'Odessa', 'Texas', '79769', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('ebruster2k', 'Mesa', 'Arizona', '85215', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('ebruster2k', 'Mesa', 'Arizona', '85215', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('dgrahamslaw2l', 'El Paso', 'Texas', '79955', true, false, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('dgrahamslaw2l', 'El Paso', 'Texas', '79955', true, false, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('lstokey2m', 'Erie', 'Pennsylvania', '16510', true, true, false)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('lstokey2m', 'Erie', 'Pennsylvania', '16510', true, true, false) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('acausley2n', 'West Palm Beach', 'Florida', '33411', false, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('acausley2n', 'West Palm Beach', 'Florida', '33411', false, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('bwaterhous2o', 'Durham', 'North Carolina', '27710', false, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('bwaterhous2o', 'Durham', 'North Carolina', '27710', false, false, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('hzavattari2p', 'Naples', 'Florida', '34108', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('hzavattari2p', 'Naples', 'Florida', '34108', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('tdavidesco2q', 'San Francisco', 'California', '94105', true, true, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('tdavidesco2q', 'San Francisco', 'California', '94105', true, true, true) [42001-214]
+2023-10-02 00:09:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('ykegg2r', 'Dulles', 'Virginia', '20189', true, false, true)"; expected "identifier"; SQL statement:
+insert into user (username, city, state, zipcode, peanut_allergy, egg_allergy, dairy_allergy) values ('ykegg2r', 'Dulles', 'Virginia', '20189', true, false, true) [42001-214]
+2023-10-02 14:14:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-10-02 14:24:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-10-02 14:28:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
