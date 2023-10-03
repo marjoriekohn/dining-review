@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * Manages RESTful API endpoints for User-related CRUD operations.
- * The UserController class maps to the "/users" URI and provides endpoints for
+ * The UserController class maps to the {@code /users} URI and provides endpoints for
  * creating, reading, and updating users. It leverages the UserService class for
  * business logic and data manipulation, thereby maintaining a clean separation of
  * concerns. The endpoints are designed to return appropriate HTTP status codes and
@@ -28,12 +28,14 @@ public class UserController {
     
     /**
      * Registers a new user.
-     * This endpoint maps to a POST request at "/users/signup" and utilizes the UserService
-     * to register a new user. It accepts a UserDTO containing the user's details and returns
-     * an HTTP response indicating the operation's result.
+     * This endpoint maps to a POST request at {@code /users/signup} and utilizes the UserService
+     * to register a new user. Errors that happen during the registration process are handled by
+     * the UserService.
      *
      * @param userDTO the Data Transfer Object containing user details, required
-     * @return a ResponseEntity indicating the result of the operation
+     * @return a string indicating the result of the operation {@code "User created successfully."}
+     *
+     * @see org.marjoriekohn.diningreview.service.UserService#createUser(UserDTO)
      */
     @PostMapping("signup")
     public ResponseEntity<?> createUser(@RequestBody @Valid UserDTO userDTO) {
@@ -43,11 +45,14 @@ public class UserController {
     
     /**
      * Retrieves user details based on username.
-     * This endpoint maps to a GET request at "/users/{username}" and utilizes the UserService
-     * to fetch the user's details. The returned UserDTO is encapsulated in an HTTP response.
+     * This endpoint maps to a GET request at {@code /users/{username}} and utilizes the UserService
+     * to fetch the user's details. Errors that happen during the retrieval process are handled by
+     * the UserService.
      *
      * @param username the username of the user to retrieve, required
-     * @return a ResponseEntity containing the UserDTO of the found user
+     * @return the user's details of the user with the specified username
+     *
+     * @see org.marjoriekohn.diningreview.service.UserService#findByUsername(String)
      */
     @GetMapping("/{username}")
     public ResponseEntity<?> findByUsername(@PathVariable String username) {
@@ -57,13 +62,15 @@ public class UserController {
     
     /**
      * Updates an existing user's information.
-     * This endpoint maps to a PUT request at "/users/{username}/update" and uses the UserService
-     * to modify the user's details based on the provided UserDTO. Upon successful update, it returns
-     * an HTTP response indicating the operation's result.
+     * This endpoint maps to a PUT request at {@code /users/{username}/update} and uses the UserService
+     * to modify the user's details based on the provided UserDTO. Errors that happen during the update
+     * process are handled by the UserService.
      *
      * @param username the username of the user to update, required
      * @param userDTO the Data Transfer Object containing the updated user details, required
-     * @return a ResponseEntity indicating the result of the operation
+     * @return the result of the operation {@code "User updated successfully."}
+     *
+     * @see org.marjoriekohn.diningreview.service.UserService#updateUser(String, UserDTO)
      */
     @PutMapping("/{username}/update")
     public ResponseEntity<?> updateUser(@PathVariable String username, @RequestBody UserDTO userDTO) {

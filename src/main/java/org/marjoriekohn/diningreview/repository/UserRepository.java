@@ -25,7 +25,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
      * This is particularly useful in authentication and user management operations.
      *
      * @param username the unique username of the user, required
-     * @return an Optional<User> that may contain the found User entity or be empty if the user doesn't exist
+     * @return an {@code Optional<User>} that may contain the found User entity or be empty if the user doesn't exist
      *
      * @see User
      * @see org.marjoriekohn.diningreview.service.UserService#findByUsername(String)

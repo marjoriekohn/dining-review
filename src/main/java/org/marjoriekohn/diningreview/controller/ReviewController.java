@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * Manages RESTful API endpoints for Review-related CRUD operations.
- * The ReviewController class maps to the "/reviews" URI and provides endpoints for
+ * The ReviewController class maps to the {@code /reviews} URI and provides endpoints for
  * creating, updating, and querying reviews. It interacts with the ReviewService to
  * perform these operations, maintaining a clean separation of concerns. It is designed
  * to return appropriate HTTP status codes and messages for each operation.
@@ -31,13 +31,14 @@ public class ReviewController {
     
     /**
      * Creates a new review.
-     * This endpoint maps to a POST request at "/reviews/create" and is responsible for
-     * creating a new review based on the provided ReviewDTO. It utilizes the ReviewService
-     * for the creation process and returns an HTTP response encapsulating the newly created
-     * ReviewDTO.
+     * This endpoint maps to a POST request at {@code /reviews/create} and is responsible for
+     * creating a new review based on the provided ReviewDTO. Errors that occur during the
+     * creation process are handled by the ReviewService.
      *
      * @param reviewDTO a Data Transfer Object containing review details, required
-     * @return a ResponseEntity containing the created ReviewDTO
+     * @return the review that was created with its associated information
+     *
+     * @see org.marjoriekohn.diningreview.service.ReviewService#createReview(ReviewDTO)
      */
     @PostMapping("/create")
     public ResponseEntity<?> createReview(@RequestBody ReviewDTO reviewDTO) {
@@ -47,12 +48,14 @@ public class ReviewController {
     
     /**
      * Updates a review's status based on admin action.
-     * This endpoint maps to a POST request at "/reviews/admin/update-status" and is designed for
-     * admin users to update the status of a review. It accepts an AdminReviewAction object containing
-     * the review ID and the desired action status, and returns an HTTP response indicating the result.
+     * This endpoint maps to a POST request at {@code /reviews/admin/update-status} and is designed for
+     * admin users to update the status of a review. Errors that occur during the update process are
+     * handled by the ReviewService.
      *
      * @param adminReviewAction a Data Transfer Object containing the admin action and the review ID, required
-     * @return a ResponseEntity containing the updated ReviewDTO
+     * @return the review that was updated with its associated information
+     *
+     * @see org.marjoriekohn.diningreview.service.ReviewService#updateReviewStatus(AdminReviewAction)
      */
     @PostMapping("/admin/update-status")
     public ResponseEntity<?> updateReviewStatus(@RequestBody AdminReviewAction adminReviewAction) {
@@ -62,11 +65,13 @@ public class ReviewController {
     
     /**
      * Retrieves all reviews pending admin approval.
-     * This endpoint maps to a GET request at "/reviews/admin/pending" and utilizes the ReviewService
-     * to fetch all reviews that are pending approval. The returned list of ReviewDTOs is encapsulated
-     * in an HTTP response.
+     * This endpoint maps to a GET request at {@code /reviews/admin/pending} and utilizes the ReviewService
+     * to fetch all reviews that are pending approval. Errors that occur during the retrieval process are
+     * handled by the ReviewService.
+
+     * @return a list of reviews that have a PENDING status
      *
-     * @return a ResponseEntity containing a list of pending ReviewDTOs
+     * @see org.marjoriekohn.diningreview.service.ReviewService#getPendingReviews()
      */
     @GetMapping("/admin/pending")
     public ResponseEntity<?> getPendingReviews() {
@@ -76,12 +81,14 @@ public class ReviewController {
     
     /**
      * Fetches all approved reviews for a specific restaurant.
-     * This endpoint maps to a GET request at "/reviews/{restaurantId}/approved" and utilizes the
-     * ReviewService to fetch all reviews that have been approved for a particular restaurant. It
-     * returns an HTTP response encapsulating the list of approved ReviewDTOs.
+     * This endpoint maps to a GET request at {@code /reviews/{restaurantId}/approved} and utilizes the
+     * ReviewService to fetch all reviews that have been approved for a particular restaurant. Errors that
+     * occur during the retrieval process are handled by the ReviewService.
      *
      * @param restaurantId the unique ID of the restaurant, required
-     * @return a ResponseEntity containing a list of approved ReviewDTOs
+     * @return a list of approved reviews for the specified restaurant
+     *
+     * @see org.marjoriekohn.diningreview.service.ReviewService#getApprovedReviews(Long)
      */
     @GetMapping("/{restaurantId}/approved")
     public ResponseEntity<?> getApprovedReviews(@PathVariable Long restaurantId) {

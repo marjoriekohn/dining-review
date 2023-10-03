@@ -12,10 +12,22 @@ import lombok.*;
  */
 
 @Data
+@AllArgsConstructor
 public class AdminReviewAction {
     private Long reviewId;
     private Status actionStatus;
+    
+    /**
+     * Represents the status of a review. The admin can update the status to APPROVED or REJECTED.
+     */
     public enum Status {
-        APPROVED, REJECTED
+        /**
+         *  indicates that the review has been approved by the admin and is visible.
+         */
+        APPROVED,
+        /**
+         * indicates that the review has been rejected by the admin and is not visible.
+         */
+        REJECTED
     }
 }

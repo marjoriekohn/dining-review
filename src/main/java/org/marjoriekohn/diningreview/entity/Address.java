@@ -2,7 +2,9 @@ package org.marjoriekohn.diningreview.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
@@ -13,6 +15,8 @@ import lombok.Setter;
  * @see org.marjoriekohn.diningreview.entity.Restaurant
  */
 
+@NoArgsConstructor
+@AllArgsConstructor
 @Getter
 @Setter
 @Embeddable
@@ -28,4 +32,7 @@ public class Address {
 	
 	@Column(name="zipcode")
 	private String zipCode;
+	
+	// TODO: Add validation for street, city, state, and zip code
+	// TODO: Use explicit constructor
 }

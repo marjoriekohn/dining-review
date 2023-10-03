@@ -36,7 +36,8 @@ public interface ReviewRepository extends JpaRepository<Review, Long> {
 	/**
 	 * Fetches reviews for a specific restaurant with a given approval status.
 	 * This method retrieves a list of Review entities associated with a particular
-	 * restaurant and having a specific approval status.
+	 * restaurant and having a specific approval status. The list may be empty if no
+	 * reviews with the specified criteria are found.
 	 *
 	 * @param restaurant the Restaurant entity for filtering reviews, required
 	 * @param status the approval status for filtering reviews, required

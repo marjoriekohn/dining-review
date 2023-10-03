@@ -62,7 +62,13 @@ public class RestaurantService {
 	    return restaurantRepository.findById(restaurantId)
           .orElseThrow(() -> new RestaurantNotFoundException(restaurantId));
     }
-    
+	
+	/**
+	 * Calculates the average peanut allergy score for a specific restaurant based on approved reviews.
+	 *
+	 * @param restaurantId the unique identifier of the restaurant, required
+	 * @return the average peanut allergy score
+	 */
     public Double getPeanutScore(Long restaurantId) {
         List<ReviewDTO> approvedReviews = reviewService.getApprovedReviews(restaurantId);
         return approvedReviews.stream()
@@ -70,7 +76,13 @@ public class RestaurantService {
           .average()
           .orElse(0.0);
     }
-    
+	
+	/**
+	 * Calculates the average egg allergy score for a specific restaurant based on approved reviews.
+	 *
+	 * @param restaurantId the unique identifier of the restaurant, required
+	 * @return the average egg allergy score
+	 */
     public Double getEggScore(Long restaurantId) {
         List<ReviewDTO> approvedReviews = reviewService.getApprovedReviews(restaurantId);
         return approvedReviews.stream()
@@ -78,7 +90,13 @@ public class RestaurantService {
           .average()
           .orElse(0.0);
     }
-    
+	
+	/**
+	 * Calculates the average dairy allergy score for a specific restaurant based on approved reviews.
+	 *
+	 * @param restaurantId the unique identifier of the restaurant, required
+	 * @return the average dairy allergy score
+	 */
     public Double getDairyScore(Long restaurantId) {
         List<ReviewDTO> approvedReviews = reviewService.getApprovedReviews(restaurantId);
         return approvedReviews.stream()
@@ -86,7 +104,14 @@ public class RestaurantService {
           .average()
           .orElse(0.0);
     }
-    
+	
+	/**
+	 * Calculates the overall average allergy score for a specific restaurant based on approved reviews.
+	 * The overall score is calculated by averaging the peanut, egg, and dairy scores.
+	 *
+	 * @param restaurantId the unique identifier of the restaurant, required
+	 * @return the overall average allergy score
+	 */
     public Double getOverallScore(Long restaurantId) {
         return (getPeanutScore(restaurantId)
           + getEggScore(restaurantId)
